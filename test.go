@@ -28,8 +28,6 @@ return false
 
 
 func function2(a [5] person)bool {
-   // a.sort()
-  //  fmt.Println(a)
     m := make(map[string]int)
     m["largest"] = a[0].age;
     m["smallest"] = a[0].age;
